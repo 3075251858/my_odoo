@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template id="template_01" xml:space="preserve">
+    <!-- 拓展Tree视图增加自定义按钮 -->
+    <t t-extend="ListView.buttons">
+        <t t-jquery="div.o_list_buttons" t-operation="append">
+
+            <t t-if="widget.model == 'res.users'">
+                <button class="btn btn-primary btn-sm o_list_tender_button_create" type="button">数据同步</button>
+            </t>
+        </t>
+    </t>
+
+    <!--<!– 拓展Form视图增加自定义按钮 –>-->
+    <!--<t t-extend="FormView.buttons">-->
+        <!--<t t-jquery="button.o_form_button_create" t-operation="after">-->
+            <!--<button type="button" class="btn btn-primary o_list_tender_button_say_hello" style="display:inline-block;">Form:Say Hello</button>-->
+        <!--</t>-->
+    <!--</t>-->
+</template>

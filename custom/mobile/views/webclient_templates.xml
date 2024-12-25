@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="assets_common_2313" inherit_id="web.assets_common" name="Backend Assets (used in backend interface)">
+
+    </template>
+</odoo>

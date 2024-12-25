@@ -1,0 +1,83 @@
+<?xml version="1.0"?>
+<odoo>
+    <template id="mobile.test_process_view">
+        <t t-call="web.html_container">
+            <div class="page">
+                <div class="main process">
+                    <div class="top_logo">
+                        <img src="http://127.0.0.1:8069/mobile/static/img/logo.png" alt="" srcset=""/>
+                    </div>
+                     <div class="title_top process_title">
+                        <div class="blue_title"></div>
+                        <div>客户移交流程</div>
+                    </div>
+                    <div class="process_body">
+                        <div class="process_img">
+                            <img src="http://127.0.0.1:8069/mobile/static/img/Page 3/yijiao.png" alt=""/>
+                        </div>
+                        <div>
+                            <table class="process_table">
+                                <tr>
+                                    <th style="color: #ef991a;">客户服务中心</th>
+                                    <th style="color: #ef991a;">会计部</th>
+                                    <th style="color: blue">财税顾问</th>
+                                    <th style="color: #c7227d;">总账会计</th>
+                                    <th style="color: #ef991a;">每月账务处理及申报流程</th>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <ul>
+                                            <li>客户经理准备移交资料(合同+会计资料)</li>
+                                        </ul>
+                                    </td>
+                                    <td>
+                                        <ul>
+                                            <li>资料审核</li>
+                                            <li>期初异常检测</li>
+                                            <li>分配财税顾问及会计总账</li>
+                                        </ul>
+                                    </td>
+                                    <td>
+                                        <ul>
+                                            <li>与客户首次沟通</li>
+                                            <li>确认合同及服务事项</li>
+                                        </ul>
+                                    </td>
+                                    <td>
+                                        <ul>
+                                            <li>创建帐套</li>
+                                            <li>期初数据录入</li>
+                                            <li>八大检查</li>
+                                            <li>工商异常</li>
+                                            <li>税务异常</li>
+                                            <li>账务问题等</li>
+                                        </ul>
+                                    </td>
+                                    <td></td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="title_top">
+                        <div class="blue_title"></div>
+                        <div>帐税如何同步,好帐如何做出来?</div>
+                    </div>
+                    <div class="process_step">
+                        <img src="http://127.0.0.1:8069/mobile/static/img/Page 3/process.png"/>
+                    </div>
+                </div>
+            </div>
+            <link rel="stylesheet" href="http://127.0.0.1:8069/mobile/static/css/test/process.css"/>
+            <link rel="stylesheet" href="http://127.0.0.1:8069/mobile/static/css/test/common.css"/>
+        </t>
+    </template>
+     <!-- 定义报告 -->
+        <report
+            id="test_process_view"
+            model="mobile.main"
+            string="报价单"
+            report_type="qweb-pdf"
+            name="mobile.test_process_view"
+            file="test_process_view"
+        />
+</odoo>

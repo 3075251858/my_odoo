@@ -1,0 +1,11 @@
+<odoo>
+        <act_window id="action_library_book"
+         name="Libray Books"
+         res_model="library.book"
+         view_mode="tree,form"/>
+
+        <menuitem id="library_menu" name="Library"/>
+
+        <menuitem id="menu_library_book" name="Books"
+        parent="library_menu" action="action_library_book"/>
+</odoo>

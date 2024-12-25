@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<odoo>
+    <record id="test_action" model="ir.actions.act_window">
+        <field name="name">移动1</field>
+        <field name="res_model">mobile.main</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <record id="mobile_kanban" model="ir.ui.view">
+        <field name="name">mobile.test.kanban</field>
+        <field name="model">mobile.main</field>
+        <field name="arch" type="xml">
+           <form>
+
+            </form>
+        </field>
+    </record>
+</odoo>

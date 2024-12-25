@@ -1,0 +1,130 @@
+<?xml version="1.0"?>
+<odoo>
+    <template id="mobile.quotation_view">
+        <t t-call="web.html_container">
+            <div class="container-fluid">
+                <div class="quotation_table">
+                            <table>
+                                <tr>
+                                    <td colspan="3">客户名称：</td>
+                                    <td colspan="4">报价日期：</td>
+                                </tr>
+                                <tr class="table-primary quotation_font">
+                                    <td>服务名称</td>
+                                    <td>套餐</td>
+                                    <td>购买月</td>
+                                    <td>月单价</td>
+                                    <td>合同总价</td>
+                                    <td>备注</td>
+                                    <td></td>
+                                </tr>
+                                <t t-foreach="docs" t-as="doc">
+                                    <tr class="quotation_font">
+                                        <td><t t-esc="doc.services"/></td>
+                                        <td><t t-esc="doc.combo"/></td>
+                                        <td><t t-esc="doc.month_of_purchase"/></td>
+                                        <td><t t-esc="doc.price"/></td>
+                                        <td><t t-esc="doc.total_price"/></td>
+                                        <td><t t-esc="doc.note"/></td>
+                                        <td><t t-esc="doc.whitespace"/></td>
+                                    </tr>
+                                </t>
+                                <tr class="quotation_font">
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr class="quotation_font">
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr class="quotation_font">
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr class="quotation_font">
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr class="quotation_font">
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr class="quotation_font">
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr class="quotation_font">
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr class="total_amount" style="text-align: center;">
+                                    <td colspan="7">金额总计：<span id="the_total_amount"></span>￥</td>
+                                </tr>
+                                <tr class="none_border">
+                                    <td colspan="7">备注：<span id="memo"></span></td>
+                                </tr>
+                                <tr class="quote none_border">
+                                    <td colspan="7"><div>1、本单有效期</div><div class="Days" id="Days"></div><div>天。</div></td>
+                                </tr>
+                                <tr class="none_border">
+                                    <td colspan="3">客户经理：<span id="account_manager"></span></td>
+                                    <td colspan="4">手机号码：<span id="phone_number"></span></td>
+                                </tr>
+                            </table>
+                        </div>
+            </div>
+            <script>
+                document.getElementById('the_total_amount').innerText = '10086';
+                document.getElementById('memo').innerText = '10086';
+                document.getElementById('Days').innerText = '10086';
+                document.getElementById('account_manager').innerText = '10086';
+                document.getElementById('phone_number').innerText = '10086';
+            </script>
+            <link rel="stylesheet" href="http://127.0.0.1:8069/mobile/static/css/quotation_view.css"/>
+        </t>
+    </template>
+     <!-- 定义报告 -->
+        <report
+            id="action_quotation_view"
+            model="mobile.main"
+            string="报价单"
+            report_type="qweb-pdf"
+            name="mobile.quotation_view"
+            file="quotation_view"
+        />
+</odoo>

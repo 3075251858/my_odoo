@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="assets_common_2313" inherit_id="web.assets_common" name="Backend Assets (used in backend interface)">
+         <xpath expr="script[last()]" position="after">
+             <script type="text/javascript" src="/estate/static/src/js/estate_customer_tree_upload.js"/>
+             <script type="text/javascript" src="/estate/static/src/js/list_renderer.js"/>
+             <script type="text/javascript" src="/estate/static/src/js/estate_customer_inline_tree_buttons.js"/>
+             <script type="text/javascript" src="/estate/static/src/js/custom_button.js"/>
+             <script type="text/javascript" src="/estate/static/src/js/tree_view_button.js"/>
+             <script type="text/javascript" src="/estate/static/src/js/common.js"/>
+        </xpath>
+        <xpath expr="link[last()]" position="after">
+            <link rel="stylesheet" href="/estate/static/src/css/common.css" />
+        </xpath>
+    </template>
+</odoo>

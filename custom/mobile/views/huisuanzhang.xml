@@ -1,0 +1,583 @@
+<?xml version="1.0"?>
+<odoo>
+    <template id="mobile.mobile_view">
+    <t t-call="web.html_container">
+        <div class="container-fluid">
+            <div class="main homepage">
+                <div class="top_logo">
+                    <img src="http://127.0.0.1:8069/mobile/static/img/logo.png" alt="" srcset=""/>
+                </div>
+                <div class="cooperate">
+                    <div class="cooperate_font" style="text-align: center;">慧合作方案</div>
+                    <div class="cooperate_img">
+                        <img src="http://127.0.0.1:8069/mobile/static/img/Page1/quanjingtu_bg.jpg" alt="" srcset=""/>
+                    </div>
+                </div>
+                <div class="introduction main_padding">
+                    <div class="title_top">
+                        <div class="blue_title"></div>
+                        <div>慧算账集团简介</div>
+                    </div>
+                   <div class="introduction_content">
+                    <div class="content_font halfway">
+                        截至2022年1月，会算账已在北京、上海、广州、深圳、重庆
+                        、天津等多地设立<span style="color: #0048e8;">55家分公司</span>，实现中国大陆区域<span style="color: #0048e8;">400多个城市</span>
+                        业务网络全面覆盖，拥有<span style="color: #0048e8;">500余家区域服务机构</span>500余家区域服务机构，为超过
+                        <span style="color: #0048e8;">120万家企业客户</span>
+                        提供财税服务。
+                    </div>
+                    <div class="introduction_img halfway">
+                        <img src="http://127.0.0.1:8069/mobile/static/img/Page1/hezuo.png" alt=""/>
+                        <span class="small_font">
+                            数据来源：扶弱斯特沙利文资料<br/>
+                            易观《中国产业数字化全景图谱分析2021》
+                        </span>
+                    </div>
+                   </div>
+                </div>
+                <div class="data_analysis">
+                    <ul>
+                        <li>
+                            <div class="analysis">
+                                <span>55</span>
+                                <span><img src="http://127.0.0.1:8069/mobile/static/img/iconPlus.png" alt=""/></span>
+                            </div>
+                            <div class="aaa">
+                                分公司
+                            </div>
+                        </li>
+                        <li>
+                            <div class="analysis">
+                                <span>500</span>
+                                <span><img src="http://127.0.0.1:8069/mobile/static/img/iconPlus.png" alt=""/></span>
+                            </div>
+                            <div class="aaa">
+                                服务机构
+                            </div>
+                        </li>
+                        <li>
+                            <div class="analysis">
+                                <span>400</span>
+                                <span><img src="http://127.0.0.1:8069/mobile/static/img/iconPlus.png" alt=""/></span>
+                            </div>
+                            <div class="aaa">
+                                城市
+                            </div>
+                        </li>
+                        <li>
+                            <div class="analysis">
+                                <span>120万</span>
+                                <span><img src="http://127.0.0.1:8069/mobile/static/img/iconPlus.png" alt=""/></span>
+                            </div>
+                            <div class="aaa">
+                                企业客户
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="diwang">
+                    <div class="title_top">
+                        <div class="blue_title"></div>
+                        <div>地王慧算账</div>
+                    </div>
+                    <div class="diwang_manager">
+                        <div class="halfway">
+                            <div class="small_title">(会算账广西头部加盟商)</div>
+                            <div class="diwang_font">
+                                地王慧算账(云会计)是广西代理记账行业协会理事单位，
+                                拥有财政局《代理记账许可证书》。<br/>
+                                地王会算账<span style="color: #0048e8;">16+</span>年专注财税服务，立足南宁至今服务超过
+                                万家客户，<span style="color: #0048e8;">百人团队</span>提供专业的代理记账及定制化高端财税服务。
+                            </div>
+                        </div>
+                        <div class="halfway diwang_img">
+                            <img src="http://127.0.0.1:8069/mobile/static/img/Page1/hezhao.png" alt="" class="hezhao"/>
+                            <img src="http://127.0.0.1:8069/mobile/static/img/Page1/gongzuo.png" alt="" class="small_img"/>
+                            <img src="http://127.0.0.1:8069/mobile/static/img/Page1/qiantai.png" alt="" class="small_img"/>
+                        </div>
+                    </div>
+                </div>
+                <div class="honor">
+                    <div class="title_top">
+                        <div class="blue_title"></div>
+                        <div>荣誉与资质</div>
+                    </div>
+                    <div class="honor_img">
+                        <div>
+                            <img src="http://127.0.0.1:8069/mobile/static/img/Page1/1.png" alt=""/>
+                        </div>
+                        <div>
+                            <img src="http://127.0.0.1:8069/mobile/static/img/Page1/2.png" alt=""/>
+                        </div>
+                        <div>
+                            <img src="http://127.0.0.1:8069/mobile/static/img/Page1/3.png" alt=""/>
+                        </div>
+                        <div>
+                            <img src="http://127.0.0.1:8069/mobile/static/img/Page1/4.png" alt=""/>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg_text">
+                    <div>我们在这</div>
+                </div>
+                <div class="home_contact">
+                    <div>
+                        <div>
+                            400-0771-955
+                        </div>
+                        <div><img src="http://127.0.0.1:8069/mobile/static/img/Page1/dianhua.png" alt=""/></div>
+                    </div>
+                    <div>
+                        <div class="address">
+                            广西南宁市青秀区金湖路59<br/>
+                            号地王国际商会中心8&amp;9楼
+                        </div>
+                        <div><img src="http://127.0.0.1:8069/mobile/static/img/Page1/ditu.png" alt=""/></div>
+                    </div>
+                </div>
+            </div>
+            <div class="main advantage">
+                <div class="top_logo">
+                    <img src="http://127.0.0.1:8069/mobile/static/img/logo.png" alt="" srcset=""/>
+                </div>
+                <div class="advantage_body">
+                    <div class="title_top">
+                        <div class="blue_title"></div>
+                        <div>五大优势</div>
+                    </div>
+                    <div class="tsan">
+                        <img src="http://127.0.0.1:8069/mobile/static/img/Page 2/tsan.png" alt=""/>
+                    </div>
+                    <div class="advantage_chart">
+                        <div>
+                            <img src="http://127.0.0.1:8069/mobile/static/img/Page 2/strengths.png" alt=""/>
+                        </div>
+                        <div class="advantage_context">
+                            <div>
+                                <ul>
+                                    <li>全国120+万客户</li>
+                                    <li>互联网财税市场占有率NO:1</li>
+                                </ul>
+                            </div>
+                            <div>
+                                <ul>
+                                    <li>严选多年的专业会计</li>
+                                    <li>入职考试</li>
+                                    <li>岗位专业培训</li>
+                                    <li>职级认证考试</li>
+                                </ul>
+                            </div>
+                            <div>
+                                <ul>
+                                    <li>把关初始化风险</li>
+                                    <li>把关帐前数据及传递风险</li>
+                                    <li>先账后税</li>
+                                    <li>税金确认</li>
+                                    <li>增值税测算推送</li>
+                                </ul>
+                            </div>
+                            <div>
+                                <ul>
+                                    <li>APP实时查看财务状况</li>
+                                    <li>企业微信群随时互动</li>
+                                    <li>风险问题随时告知</li>
+                                    <li>服务过程信息推送</li>
+                                </ul>
+                            </div>
+                            <div>
+                                <ul>
+                                    <li>财税顾问</li>
+                                    <li>总账会计</li>
+                                    <li>会计经理</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="title_top">
+                        <div class="blue_title"></div>
+                        <div>知名合作企业</div>
+                    </div>
+                    <div class="cooperative_enterprises">
+                        <table>
+                            <tr class="cooperative_enterprises_img">
+                                <td>
+                                    <img src="http://127.0.0.1:8069/mobile/static/img/Page 2/kangquan.png" alt=""/>
+                                </td>
+                                <td>
+                                    <img src="http://127.0.0.1:8069/mobile/static/img/Page 2/quanji.png" alt=""/>
+                                </td>
+                                <td>
+                                    <img src="http://127.0.0.1:8069/mobile/static/img/Page 2/yongxing.png" alt=""/>
+                                </td>
+                            </tr>
+                            <tr class="cooperative_enterprises_font">
+                                <td>康全药业南宁公司</td>
+                                <td>全季酒店南宁公司</td>
+                                <td>南宁永兴驾校</td>
+                            </tr>
+                            <tr class="cooperative_enterprises_img">
+                                <td>
+                                    <img src="http://127.0.0.1:8069/mobile/static/img/Page 2/didi.png" alt=""/>
+                                </td>
+                                <td>
+                                    <img src="http://127.0.0.1:8069/mobile/static/img/Page 2/TOYOTA.png" alt=""/>
+                                </td>
+                                <td>
+                                    <img src="http://127.0.0.1:8069/mobile/static/img/Page 2/weiheng.png" alt=""/>
+                                </td>
+                            </tr>
+                            <tr class="cooperative_enterprises_font">
+                                <td>滴滴-玉林-梧州-贵港公司</td>
+                                <td>丰田租赁(中国)有限公司</td>
+                                <td>炜衡律师事务所南宁分所</td>
+                            </tr>
+                            <tr class="cooperative_enterprises_img">
+                                <td>
+                                    <img src="http://127.0.0.1:8069/mobile/static/img/Page 2/xiangwang.png" alt=""/>
+                                </td>
+                                <td>
+                                    <img src="http://127.0.0.1:8069/mobile/static/img/Page 2/zhongjian.png" alt=""/>
+                                </td>
+                                <td>
+                                    <img src="http://127.0.0.1:8069/mobile/static/img/Page 2/SCG.png" alt=""/>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class="main process">
+                <div class="top_logo">
+                    <img src="http://127.0.0.1:8069/mobile/static/img/logo.png" alt="" srcset=""/>
+                </div>
+                <div class="process_body">
+                    <div class="title_top process_title">
+                        <div class="blue_title"></div>
+                        <div>客户移交流程</div>
+                    </div>
+                    <div class="process_img">
+                        <img src="http://127.0.0.1:8069/mobile/static/img/Page 3/yijiao.png" alt=""/>
+                    </div>
+                    <div>
+                        <table class="process_table">
+                            <tr>
+                                <th style="color: #ef991a;">客户服务中心</th>
+                                <th style="color: #ef991a;">会计部</th>
+                                <th style="color: blue">财税顾问</th>
+                                <th style="color: #c7227d;">总账会计</th>
+                                <th style="color: #ef991a;">每月账务处理及申报流程</th>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <ul>
+                                        <li>客户经理准备移交资料(合同+会计资料)</li>
+                                    </ul>
+                                </td>
+                                <td>
+                                    <ul>
+                                        <li>资料审核</li>
+                                        <li>期初异常检测</li>
+                                        <li>分配财税顾问及会计总账</li>
+                                    </ul>
+                                </td>
+                                <td>
+                                    <ul>
+                                        <li>与客户首次沟通</li>
+                                        <li>确认合同及服务事项</li>
+                                    </ul>
+                                </td>
+                                <td>
+                                    <ul>
+                                        <li>创建帐套</li>
+                                        <li>期初数据录入</li>
+                                        <li>八大检查</li>
+                                        <li>工商异常</li>
+                                        <li>税务异常</li>
+                                        <li>账务问题等</li>
+                                    </ul>
+                                </td>
+                                <td></td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="title_top">
+                        <div class="blue_title"></div>
+                        <div>帐税如何同步,好帐如何做出来?</div>
+                    </div>
+                    <div class="process_step">
+                        <div class="mxgraph" style="border:1px solid transparent;" data-mxgraph="{&quot;highlight&quot;:&quot;#0000ff&quot;,&quot;nav&quot;:true,&quot;resize&quot;:true,&quot;xml&quot;:&quot;&lt;mxfile host=\&quot;app.diagrams.net\&quot; agent=\&quot;Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36\&quot; version=\&quot;24.8.3\&quot;&gt;&lt;diagram name=\&quot;Page-1\&quot; id=\&quot;c7488fd3-1785-93aa-aadb-54a6760d102a\&quot;&gt;&lt;mxGraphModel dx=\&quot;1122\&quot; dy=\&quot;706\&quot; grid=\&quot;1\&quot; gridSize=\&quot;10\&quot; guides=\&quot;1\&quot; tooltips=\&quot;1\&quot; connect=\&quot;1\&quot; arrows=\&quot;1\&quot; fold=\&quot;1\&quot; page=\&quot;1\&quot; pageScale=\&quot;1\&quot; pageWidth=\&quot;1100\&quot; pageHeight=\&quot;850\&quot; background=\&quot;none\&quot; math=\&quot;0\&quot; shadow=\&quot;0\&quot;&gt;&lt;root&gt;&lt;mxCell id=\&quot;0\&quot;/&gt;&lt;mxCell id=\&quot;1\&quot; parent=\&quot;0\&quot;/&gt;&lt;mxCell id=\&quot;1c6fICiuOeIQ-uJwoDWE-1\&quot; value=\&quot;&amp;lt;font style=&amp;quot;font-size: 36px;&amp;quot;&amp;gt;05&amp;lt;/font&amp;gt;\&quot; style=\&quot;ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;\&quot; vertex=\&quot;1\&quot; parent=\&quot;1\&quot;&gt;&lt;mxGeometry x=\&quot;180\&quot; y=\&quot;330\&quot; width=\&quot;80\&quot; height=\&quot;80\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;1c6fICiuOeIQ-uJwoDWE-2\&quot; value=\&quot;&amp;lt;font style=&amp;quot;font-size: 36px;&amp;quot;&amp;gt;06&amp;lt;/font&amp;gt;\&quot; style=\&quot;ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;\&quot; vertex=\&quot;1\&quot; parent=\&quot;1\&quot;&gt;&lt;mxGeometry x=\&quot;340\&quot; y=\&quot;330\&quot; width=\&quot;80\&quot; height=\&quot;80\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;1c6fICiuOeIQ-uJwoDWE-3\&quot; value=\&quot;&amp;lt;font style=&amp;quot;font-size: 36px;&amp;quot;&amp;gt;07&amp;lt;/font&amp;gt;\&quot; style=\&quot;ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;\&quot; vertex=\&quot;1\&quot; parent=\&quot;1\&quot;&gt;&lt;mxGeometry x=\&quot;490\&quot; y=\&quot;330\&quot; width=\&quot;80\&quot; height=\&quot;80\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;1c6fICiuOeIQ-uJwoDWE-4\&quot; value=\&quot;&amp;lt;font style=&amp;quot;font-size: 36px;&amp;quot;&amp;gt;08&amp;lt;/font&amp;gt;\&quot; style=\&quot;ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;\&quot; vertex=\&quot;1\&quot; parent=\&quot;1\&quot;&gt;&lt;mxGeometry x=\&quot;640\&quot; y=\&quot;330\&quot; width=\&quot;80\&quot; height=\&quot;80\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;1c6fICiuOeIQ-uJwoDWE-5\&quot; value=\&quot;&amp;lt;font style=&amp;quot;font-size: 36px;&amp;quot;&amp;gt;09&amp;lt;/font&amp;gt;\&quot; style=\&quot;ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;\&quot; vertex=\&quot;1\&quot; parent=\&quot;1\&quot;&gt;&lt;mxGeometry x=\&quot;790\&quot; y=\&quot;330\&quot; width=\&quot;80\&quot; height=\&quot;80\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;1c6fICiuOeIQ-uJwoDWE-14\&quot; value=\&quot;\&quot; style=\&quot;endArrow=none;html=1;rounded=0;dashed=1;fillColor=#b0e3e6;strokeColor=#0e8088;\&quot; edge=\&quot;1\&quot; parent=\&quot;1\&quot;&gt;&lt;mxGeometry width=\&quot;50\&quot; height=\&quot;50\&quot; relative=\&quot;1\&quot; as=\&quot;geometry\&quot;&gt;&lt;mxPoint x=\&quot;260\&quot; y=\&quot;369.5\&quot; as=\&quot;sourcePoint\&quot;/&gt;&lt;mxPoint x=\&quot;340\&quot; y=\&quot;370\&quot; as=\&quot;targetPoint\&quot;/&gt;&lt;Array as=\&quot;points\&quot;&gt;&lt;mxPoint x=\&quot;310\&quot; y=\&quot;369.5\&quot;/&gt;&lt;/Array&gt;&lt;/mxGeometry&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;1c6fICiuOeIQ-uJwoDWE-15\&quot; value=\&quot;\&quot; style=\&quot;endArrow=none;html=1;rounded=0;dashed=1;fillColor=#b0e3e6;strokeColor=#0e8088;\&quot; edge=\&quot;1\&quot; parent=\&quot;1\&quot;&gt;&lt;mxGeometry width=\&quot;50\&quot; height=\&quot;50\&quot; relative=\&quot;1\&quot; as=\&quot;geometry\&quot;&gt;&lt;mxPoint x=\&quot;420\&quot; y=\&quot;369.5\&quot; as=\&quot;sourcePoint\&quot;/&gt;&lt;mxPoint x=\&quot;490\&quot; y=\&quot;370\&quot; as=\&quot;targetPoint\&quot;/&gt;&lt;Array as=\&quot;points\&quot;&gt;&lt;mxPoint x=\&quot;470\&quot; y=\&quot;369.5\&quot;/&gt;&lt;/Array&gt;&lt;/mxGeometry&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;1c6fICiuOeIQ-uJwoDWE-17\&quot; value=\&quot;\&quot; style=\&quot;endArrow=none;html=1;rounded=0;dashed=1;fillColor=#b0e3e6;strokeColor=#0e8088;\&quot; edge=\&quot;1\&quot; parent=\&quot;1\&quot;&gt;&lt;mxGeometry width=\&quot;50\&quot; height=\&quot;50\&quot; relative=\&quot;1\&quot; as=\&quot;geometry\&quot;&gt;&lt;mxPoint x=\&quot;570\&quot; y=\&quot;369.5\&quot; as=\&quot;sourcePoint\&quot;/&gt;&lt;mxPoint x=\&quot;640\&quot; y=\&quot;370\&quot; as=\&quot;targetPoint\&quot;/&gt;&lt;Array as=\&quot;points\&quot;&gt;&lt;mxPoint x=\&quot;620\&quot; y=\&quot;369.5\&quot;/&gt;&lt;/Array&gt;&lt;/mxGeometry&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;1c6fICiuOeIQ-uJwoDWE-18\&quot; value=\&quot;\&quot; style=\&quot;endArrow=none;html=1;rounded=0;dashed=1;dashPattern=8 8;fillColor=#b0e3e6;strokeColor=#0e8088;\&quot; edge=\&quot;1\&quot; parent=\&quot;1\&quot;&gt;&lt;mxGeometry width=\&quot;50\&quot; height=\&quot;50\&quot; relative=\&quot;1\&quot; as=\&quot;geometry\&quot;&gt;&lt;mxPoint x=\&quot;720\&quot; y=\&quot;369.5\&quot; as=\&quot;sourcePoint\&quot;/&gt;&lt;mxPoint x=\&quot;790\&quot; y=\&quot;370\&quot; as=\&quot;targetPoint\&quot;/&gt;&lt;Array as=\&quot;points\&quot;&gt;&lt;mxPoint x=\&quot;770\&quot; y=\&quot;369.5\&quot;/&gt;&lt;/Array&gt;&lt;/mxGeometry&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;1c6fICiuOeIQ-uJwoDWE-21\&quot; value=\&quot;\&quot; style=\&quot;endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;dashPattern=1 2;\&quot; edge=\&quot;1\&quot; parent=\&quot;1\&quot; target=\&quot;1c6fICiuOeIQ-uJwoDWE-2\&quot;&gt;&lt;mxGeometry width=\&quot;50\&quot; height=\&quot;50\&quot; relative=\&quot;1\&quot; as=\&quot;geometry\&quot;&gt;&lt;mxPoint x=\&quot;220\&quot; y=\&quot;330\&quot; as=\&quot;sourcePoint\&quot;/&gt;&lt;mxPoint x=\&quot;385\&quot; y=\&quot;330\&quot; as=\&quot;targetPoint\&quot;/&gt;&lt;Array as=\&quot;points\&quot;&gt;&lt;mxPoint x=\&quot;220\&quot; y=\&quot;310\&quot;/&gt;&lt;mxPoint x=\&quot;305\&quot; y=\&quot;310\&quot;/&gt;&lt;mxPoint x=\&quot;380\&quot; y=\&quot;310\&quot;/&gt;&lt;/Array&gt;&lt;/mxGeometry&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;1c6fICiuOeIQ-uJwoDWE-24\&quot; value=\&quot;&amp;lt;span style=&amp;quot;color: rgb(255, 0, 0); font-size: 18px;&amp;quot;&amp;gt;先账后税&amp;lt;/span&amp;gt;\&quot; style=\&quot;rounded=1;whiteSpace=wrap;html=1;dashed=1;fillColor=#fad7ac;strokeColor=#b46504;\&quot; vertex=\&quot;1\&quot; parent=\&quot;1\&quot;&gt;&lt;mxGeometry x=\&quot;250\&quot; y=\&quot;290\&quot; width=\&quot;110\&quot; height=\&quot;30\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;1c6fICiuOeIQ-uJwoDWE-25\&quot; value=\&quot;&amp;lt;font style=&amp;quot;font-size: 36px;&amp;quot;&amp;gt;01&amp;lt;/font&amp;gt;\&quot; style=\&quot;ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;\&quot; vertex=\&quot;1\&quot; parent=\&quot;1\&quot;&gt;&lt;mxGeometry x=\&quot;250\&quot; y=\&quot;70\&quot; width=\&quot;80\&quot; height=\&quot;80\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;1c6fICiuOeIQ-uJwoDWE-27\&quot; value=\&quot;&amp;lt;font style=&amp;quot;font-size: 36px;&amp;quot;&amp;gt;02&amp;lt;/font&amp;gt;\&quot; style=\&quot;ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;\&quot; vertex=\&quot;1\&quot; parent=\&quot;1\&quot;&gt;&lt;mxGeometry x=\&quot;410\&quot; y=\&quot;70\&quot; width=\&quot;80\&quot; height=\&quot;80\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;1c6fICiuOeIQ-uJwoDWE-28\&quot; value=\&quot;&amp;lt;font style=&amp;quot;font-size: 36px;&amp;quot;&amp;gt;03&amp;lt;/font&amp;gt;\&quot; style=\&quot;ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;\&quot; vertex=\&quot;1\&quot; parent=\&quot;1\&quot;&gt;&lt;mxGeometry x=\&quot;570\&quot; y=\&quot;70\&quot; width=\&quot;80\&quot; height=\&quot;80\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;1c6fICiuOeIQ-uJwoDWE-29\&quot; value=\&quot;&amp;lt;font style=&amp;quot;font-size: 36px;&amp;quot;&amp;gt;04&amp;lt;/font&amp;gt;\&quot; style=\&quot;ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;\&quot; vertex=\&quot;1\&quot; parent=\&quot;1\&quot;&gt;&lt;mxGeometry x=\&quot;730\&quot; y=\&quot;70\&quot; width=\&quot;80\&quot; height=\&quot;80\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;1c6fICiuOeIQ-uJwoDWE-30\&quot; value=\&quot;&amp;lt;font color=&amp;quot;#ff8000&amp;quot; style=&amp;quot;font-size: 24px;&amp;quot;&amp;gt;客户&amp;lt;/font&amp;gt;\&quot; style=\&quot;text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;\&quot; vertex=\&quot;1\&quot; parent=\&quot;1\&quot;&gt;&lt;mxGeometry x=\&quot;255\&quot; y=\&quot;150\&quot; width=\&quot;70\&quot; height=\&quot;40\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;1c6fICiuOeIQ-uJwoDWE-31\&quot; value=\&quot;&amp;lt;font color=&amp;quot;#0000ff&amp;quot; style=&amp;quot;font-size: 24px;&amp;quot;&amp;gt;财税顾问&amp;lt;/font&amp;gt;\&quot; style=\&quot;text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;\&quot; vertex=\&quot;1\&quot; parent=\&quot;1\&quot;&gt;&lt;mxGeometry x=\&quot;390\&quot; y=\&quot;150\&quot; width=\&quot;120\&quot; height=\&quot;40\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;1c6fICiuOeIQ-uJwoDWE-32\&quot; value=\&quot;&amp;lt;font color=&amp;quot;#ff0080&amp;quot; style=&amp;quot;font-size: 24px;&amp;quot;&amp;gt;总账会计&amp;lt;/font&amp;gt;\&quot; style=\&quot;text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;\&quot; vertex=\&quot;1\&quot; parent=\&quot;1\&quot;&gt;&lt;mxGeometry x=\&quot;550\&quot; y=\&quot;150\&quot; width=\&quot;120\&quot; height=\&quot;40\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;1c6fICiuOeIQ-uJwoDWE-33\&quot; value=\&quot;&amp;lt;font style=&amp;quot;font-size: 24px;&amp;quot; color=&amp;quot;#0000ff&amp;quot;&amp;gt;财税顾问&amp;lt;/font&amp;gt;\&quot; style=\&quot;text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;\&quot; vertex=\&quot;1\&quot; parent=\&quot;1\&quot;&gt;&lt;mxGeometry x=\&quot;710\&quot; y=\&quot;150\&quot; width=\&quot;120\&quot; height=\&quot;40\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;1c6fICiuOeIQ-uJwoDWE-37\&quot; value=\&quot;&amp;lt;font color=&amp;quot;#ff0080&amp;quot; style=&amp;quot;font-size: 24px;&amp;quot;&amp;gt;总账会计&amp;lt;/font&amp;gt;\&quot; style=\&quot;text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;\&quot; vertex=\&quot;1\&quot; parent=\&quot;1\&quot;&gt;&lt;mxGeometry x=\&quot;160\&quot; y=\&quot;410\&quot; width=\&quot;120\&quot; height=\&quot;40\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;1c6fICiuOeIQ-uJwoDWE-38\&quot; value=\&quot;财税处理完成&amp;lt;div&amp;gt;生成财务报表&amp;lt;/div&amp;gt;\&quot; style=\&quot;text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;\&quot; vertex=\&quot;1\&quot; parent=\&quot;1\&quot;&gt;&lt;mxGeometry x=\&quot;170\&quot; y=\&quot;443\&quot; width=\&quot;100\&quot; height=\&quot;40\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;1c6fICiuOeIQ-uJwoDWE-39\&quot; value=\&quot;&amp;lt;font color=&amp;quot;#ff0080&amp;quot; style=&amp;quot;font-size: 24px;&amp;quot;&amp;gt;总账会计&amp;lt;/font&amp;gt;\&quot; style=\&quot;text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;\&quot; vertex=\&quot;1\&quot; parent=\&quot;1\&quot;&gt;&lt;mxGeometry x=\&quot;320\&quot; y=\&quot;403\&quot; width=\&quot;120\&quot; height=\&quot;40\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;1c6fICiuOeIQ-uJwoDWE-40\&quot; value=\&quot;申报纳税&amp;lt;div&amp;gt;扣缴税款&amp;lt;/div&amp;gt;\&quot; style=\&quot;text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;\&quot; vertex=\&quot;1\&quot; parent=\&quot;1\&quot;&gt;&lt;mxGeometry x=\&quot;345\&quot; y=\&quot;443\&quot; width=\&quot;70\&quot; height=\&quot;40\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;1c6fICiuOeIQ-uJwoDWE-41\&quot; value=\&quot;&amp;lt;font color=&amp;quot;#7f00ff&amp;quot; style=&amp;quot;font-size: 24px;&amp;quot;&amp;gt;慧算账系统&amp;lt;/font&amp;gt;\&quot; style=\&quot;text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;\&quot; vertex=\&quot;1\&quot; parent=\&quot;1\&quot;&gt;&lt;mxGeometry x=\&quot;460\&quot; y=\&quot;403\&quot; width=\&quot;140\&quot; height=\&quot;40\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;1c6fICiuOeIQ-uJwoDWE-43\&quot; value=\&quot;&amp;lt;font color=&amp;quot;#ff0080&amp;quot; style=&amp;quot;font-size: 24px;&amp;quot;&amp;gt;总账会计&amp;lt;/font&amp;gt;\&quot; style=\&quot;text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;\&quot; vertex=\&quot;1\&quot; parent=\&quot;1\&quot;&gt;&lt;mxGeometry x=\&quot;620\&quot; y=\&quot;403\&quot; width=\&quot;120\&quot; height=\&quot;40\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;1c6fICiuOeIQ-uJwoDWE-48\&quot; value=\&quot;&amp;lt;font color=&amp;quot;#0000ff&amp;quot; style=&amp;quot;font-size: 24px;&amp;quot;&amp;gt;财税顾问&amp;lt;/font&amp;gt;\&quot; style=\&quot;text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;\&quot; vertex=\&quot;1\&quot; parent=\&quot;1\&quot;&gt;&lt;mxGeometry x=\&quot;780\&quot; y=\&quot;403\&quot; width=\&quot;120\&quot; height=\&quot;40\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;1c6fICiuOeIQ-uJwoDWE-49\&quot; value=\&quot;次月增值税测算&amp;lt;div&amp;gt;告知客户&amp;lt;/div&amp;gt;\&quot; style=\&quot;text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;\&quot; vertex=\&quot;1\&quot; parent=\&quot;1\&quot;&gt;&lt;mxGeometry x=\&quot;775\&quot; y=\&quot;440\&quot; width=\&quot;110\&quot; height=\&quot;40\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;1c6fICiuOeIQ-uJwoDWE-50\&quot; value=\&quot;\&quot; style=\&quot;endArrow=none;dashed=1;html=1;rounded=0;fillColor=#b0e3e6;strokeColor=#0e8088;\&quot; edge=\&quot;1\&quot; parent=\&quot;1\&quot;&gt;&lt;mxGeometry width=\&quot;50\&quot; height=\&quot;50\&quot; relative=\&quot;1\&quot; as=\&quot;geometry\&quot;&gt;&lt;mxPoint x=\&quot;330\&quot; y=\&quot;109.5\&quot; as=\&quot;sourcePoint\&quot;/&gt;&lt;mxPoint x=\&quot;410\&quot; y=\&quot;109.5\&quot; as=\&quot;targetPoint\&quot;/&gt;&lt;Array as=\&quot;points\&quot;&gt;&lt;mxPoint x=\&quot;370\&quot; y=\&quot;109.5\&quot;/&gt;&lt;/Array&gt;&lt;/mxGeometry&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;1c6fICiuOeIQ-uJwoDWE-51\&quot; value=\&quot;\&quot; style=\&quot;endArrow=none;dashed=1;html=1;rounded=0;fillColor=#b0e3e6;strokeColor=#0e8088;\&quot; edge=\&quot;1\&quot; parent=\&quot;1\&quot;&gt;&lt;mxGeometry width=\&quot;50\&quot; height=\&quot;50\&quot; relative=\&quot;1\&quot; as=\&quot;geometry\&quot;&gt;&lt;mxPoint x=\&quot;490\&quot; y=\&quot;109.5\&quot; as=\&quot;sourcePoint\&quot;/&gt;&lt;mxPoint x=\&quot;570\&quot; y=\&quot;109.5\&quot; as=\&quot;targetPoint\&quot;/&gt;&lt;Array as=\&quot;points\&quot;/&gt;&lt;/mxGeometry&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;1c6fICiuOeIQ-uJwoDWE-52\&quot; value=\&quot;\&quot; style=\&quot;endArrow=none;dashed=1;html=1;rounded=0;fillColor=#b0e3e6;strokeColor=#0e8088;\&quot; edge=\&quot;1\&quot; parent=\&quot;1\&quot;&gt;&lt;mxGeometry width=\&quot;50\&quot; height=\&quot;50\&quot; relative=\&quot;1\&quot; as=\&quot;geometry\&quot;&gt;&lt;mxPoint x=\&quot;650\&quot; y=\&quot;110\&quot; as=\&quot;sourcePoint\&quot;/&gt;&lt;mxPoint x=\&quot;730\&quot; y=\&quot;110\&quot; as=\&quot;targetPoint\&quot;/&gt;&lt;Array as=\&quot;points\&quot;&gt;&lt;mxPoint x=\&quot;690\&quot; y=\&quot;110\&quot;/&gt;&lt;/Array&gt;&lt;/mxGeometry&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;1c6fICiuOeIQ-uJwoDWE-56\&quot; value=\&quot;自动申报检查：&amp;lt;div&amp;gt;所有税种申报情况&amp;lt;/div&amp;gt;&amp;lt;div&amp;gt;税金是否已缴纳&amp;lt;br&amp;gt;避免漏报&amp;lt;/div&amp;gt;\&quot; style=\&quot;text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;\&quot; vertex=\&quot;1\&quot; parent=\&quot;1\&quot;&gt;&lt;mxGeometry x=\&quot;470\&quot; y=\&quot;440\&quot; width=\&quot;120\&quot; height=\&quot;70\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;1c6fICiuOeIQ-uJwoDWE-59\&quot; value=\&quot;财税质检&amp;lt;div&amp;gt;慧算账AI质检&amp;lt;/div&amp;gt;&amp;lt;div&amp;gt;帐税互查(检查)&amp;lt;/div&amp;gt;&amp;lt;div&amp;gt;主管抽查&amp;lt;/div&amp;gt;\&quot; style=\&quot;text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;\&quot; vertex=\&quot;1\&quot; parent=\&quot;1\&quot;&gt;&lt;mxGeometry x=\&quot;630\&quot; y=\&quot;440\&quot; width=\&quot;100\&quot; height=\&quot;70\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;1c6fICiuOeIQ-uJwoDWE-60\&quot; value=\&quot;收集会计资料\&quot; style=\&quot;text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;\&quot; vertex=\&quot;1\&quot; parent=\&quot;1\&quot;&gt;&lt;mxGeometry x=\&quot;400\&quot; y=\&quot;180\&quot; width=\&quot;100\&quot; height=\&quot;30\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;1c6fICiuOeIQ-uJwoDWE-61\&quot; value=\&quot;账务处理&amp;lt;div&amp;gt;整理会计资料&amp;lt;/div&amp;gt;&amp;lt;div&amp;gt;票据核查&amp;lt;/div&amp;gt;&amp;lt;div&amp;gt;录入凭证&amp;lt;/div&amp;gt;\&quot; style=\&quot;text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;\&quot; vertex=\&quot;1\&quot; parent=\&quot;1\&quot;&gt;&lt;mxGeometry x=\&quot;560\&quot; y=\&quot;180\&quot; width=\&quot;100\&quot; height=\&quot;70\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;1c6fICiuOeIQ-uJwoDWE-62\&quot; value=\&quot;税金确认&amp;lt;div&amp;gt;与客户确认个税、&amp;lt;/div&amp;gt;&amp;lt;div&amp;gt;增值税、企业所得税&amp;lt;/div&amp;gt;&amp;lt;div&amp;gt;等税金&amp;lt;/div&amp;gt;\&quot; style=\&quot;text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;\&quot; vertex=\&quot;1\&quot; parent=\&quot;1\&quot;&gt;&lt;mxGeometry x=\&quot;705\&quot; y=\&quot;180\&quot; width=\&quot;130\&quot; height=\&quot;70\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;1c6fICiuOeIQ-uJwoDWE-63\&quot; value=\&quot;&amp;lt;div&amp;gt;发票&amp;lt;/div&amp;gt;\&quot; style=\&quot;text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;\&quot; vertex=\&quot;1\&quot; parent=\&quot;1\&quot;&gt;&lt;mxGeometry x=\&quot;425\&quot; y=\&quot;200\&quot; width=\&quot;50\&quot; height=\&quot;30\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;1c6fICiuOeIQ-uJwoDWE-66\&quot; value=\&quot;银行流水、回单、工资等\&quot; style=\&quot;text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;\&quot; vertex=\&quot;1\&quot; parent=\&quot;1\&quot;&gt;&lt;mxGeometry x=\&quot;370\&quot; y=\&quot;220\&quot; width=\&quot;160\&quot; height=\&quot;30\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;&lt;/diagram&gt;&lt;/mxfile&gt;&quot;,&quot;toolbar&quot;:&quot;pages zoom layers lightbox&quot;,&quot;page&quot;:0}"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="main service_context">
+                <div class="top_logo">
+                    <img src="http://127.0.0.1:8069/mobile/static/img/logo.png" alt="" srcset=""/>
+                </div>
+                <div class="service">
+                    <div class="title_top_white">
+                        <div class="white_title"></div>
+                        <div>代理记账服务内容</div>
+                    </div>
+                    <div class="service_table">
+                        <table>
+                            <tr class="service_title">
+                                <td><div class="trapezoid" style="border-bottom: 6vw solid #ef991a;">记账</div></td>
+                                <td><div class="trapezoid" style="border-bottom: 6vw solid #4455f3;">申报纳税</div></td>
+                                <td><div class="trapezoid" style="border-bottom: 6vw solid #f50d5b;">打印装订</div></td>
+                            </tr>
+                            <tr class="table_border">
+                                <td class="bg_white">
+                                    <ul>
+                                        <li>建立账册</li>
+                                        <li>录入凭证</li>
+                                        <li>收取客户票据</li>
+                                        <li>核查客户票据</li>
+                                        <li>编制记账凭证</li>
+                                        <li>税款确认</li>
+                                        <li>编制财务报表</li>
+                                    </ul>
+                                    <div class="left_img">
+                                        <img src="http://127.0.0.1:8069/mobile/static/img/Page 4/accounting.png" alt=""/>
+                                    </div>
+                                </td>
+                                <td class="bg_white">
+                                    <ul>
+                                        <li>个税申报</li>
+                                        <li>增值税申报</li>
+                                        <li>企业所得税申报</li>
+                                        <li>城市维护建设税申报</li>
+                                        <li>教育费附加申报</li>
+                                        <li>地方教育附加申报</li>
+                                        <li>残保金、消费税</li>
+                                        <li>文化建设、印花税申报</li>
+                                    </ul>
+                                    <div class="left_img">
+                                        <img src="http://127.0.0.1:8069/mobile/static/img/Page 4/ratepaying.png" alt=""/>
+                                    </div>
+                                </td>
+                                <td class="bg_white">
+                                    <ul>
+                                        <li>整理、粘贴票据</li>
+                                        <li>打印装订凭证</li>
+                                        <li>打印装订纳税申报表</li>
+                                        <li>打印装订全年明细账</li>
+                                        <li>打印装订全年总帐</li>
+                                    </ul>
+                                    <div class="left_img">
+                                        <img src="http://127.0.0.1:8069/mobile/static/img/Page 4/bookbinding.png" alt=""/>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr class="service_title">
+                                <td><div class="trapezoid" style="border-bottom: 6vw solid #ec1eca;">年报</div></td>
+                                <td><div class="trapezoid" style="border-bottom: 6vw solid #b311f3;">财务咨询</div></td>
+                                <td><div class="trapezoid" style="border-bottom: 6vw solid #2654eb;">其他服务</div></td>
+                            </tr>
+                            <tr class="table_border">
+                                <td class="bg_white">
+                                    <ul>
+                                        <li>所得税汇算清缴</li>
+                                        <li>企业工商年鉴</li>
+                                    </ul>
+                                    <div class="left_img">
+                                        <img src="http://127.0.0.1:8069/mobile/static/img/Page 4/report.png" alt=""/>
+                                    </div>
+                                </td>
+                                <td class="bg_white">
+                                    <ul>
+                                        <li>日常财税咨询</li>
+                                        <li>财务管理咨询</li>
+                                        <li>财税风险预警</li>
+                                        <li>财税合规建议</li>
+                                        <li>合理避税建议</li>
+                                    </ul>
+                                    <div class="left_img">
+                                        <img src="http://127.0.0.1:8069/mobile/static/img/Page 4/consult.png" alt=""/>
+                                    </div>
+                                </td>
+                                <td class="bg_white">
+                                    <ul>
+                                        <li>与前会计公司交接资料</li>
+                                        <li>打印银行流水、回单</li>
+                                        <li>手机APP在线查询</li>
+                                        <li>财务推送报告</li>
+                                    </ul>
+                                    <div class="left_img">
+                                        <img src="http://127.0.0.1:8069/mobile/static/img/Page 4/other_service.png" alt=""/>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class="main quotation">
+                <div class="top_logo">
+                    <img src="http://127.0.0.1:8069/mobile/static/img/logo.png" alt="" srcset=""/>
+                </div>
+                <div class="quotation_context">
+                    <div class="title_top process_title">
+                        <div class="blue_title"></div>
+                        <div>代理记账合作报价单</div>
+                    </div>
+                    <div class="quotation_table">
+                        <table>
+                            <tr>
+                                <td colspan="3">客户名称：</td>
+                                <td colspan="4">报价日期：</td>
+                            </tr>
+                            <tr class="table-primary quotation_font">
+                                <td>服务名称</td>
+                                <td>套餐</td>
+                                <td>购买月</td>
+                                <td>月单价</td>
+                                <td>合同总价</td>
+                                <td>备注</td>
+                                <td></td>
+                            </tr>
+                            <tr class="quotation_font">
+                                <td>
+                                    <select id="services">
+                                        <option value="a服务">a服务</option>
+                                        <option value="b服务">b服务</option>
+                                        <option value="b服务">c服务</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <select name="combo" id="combo">
+                                        <option value="a套餐">a套餐</option>
+                                        <option value="b套餐">b套餐</option>
+                                        <option value="c套餐">c套餐</option>
+                                    </select>
+                                </td>
+                                <td><input id="month_of_purchase" type="number" style="width: 100%;" min="1"/></td>
+                                <td><span id="price"></span></td>
+                                <td><span id="total_price"></span></td>
+                                <td><input id="note" style="width: 100%;border: none"></input></td>
+                                <td><span id="whitespace"></span></td>
+                            </tr>
+                            <tr class="quotation_font">
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr class="quotation_font">
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr class="quotation_font">
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr class="quotation_font">
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr class="quotation_font">
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr class="quotation_font">
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr class="quotation_font">
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr class="total_amount" style="text-align: center;">
+                                <td colspan="7">金额总计：<span></span>￥</td>
+                            </tr>
+                            <tr class="none_border">
+                                <td colspan="7">备注：</td>
+                            </tr>
+                            <tr class="quote none_border">
+                                <td colspan="7"><div>1、本单有效期</div><div class="Days"></div><div>天。</div></td>
+                            </tr>
+                            <tr class="none_border">
+                                <td colspan="3">客户经理：</td>
+                                <td colspan="4">手机号码：</td>
+                            </tr>
+                        </table>
+                        <div class="witness">
+                            <span class="red_font">3000+</span>
+                            <span class="black_font">代理记账客户见证!</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="confirm">
+                    <button id="confirm" class="btn btn-primary">确认</button>
+                </div>
+                <div class="Contact">
+                    <div style="width: 94%;font-size: 4vw;">联系我们</div>
+                    <div class="phone">
+                        地址:广西南宁市青秀区金湖路59号地王国际中心8&amp;9楼(地王会算账)TEL:400-0771-955
+                    </div>
+                </div>
+            </div>
+             <div id="myModal" class="modal">
+                <div class="modal-content modal-normal">
+                    <span class="close" id="close">关闭</span>
+                    <div id="pdf_context"></div>
+                    <div class="modal-footer">
+                        <button id="confirmButton" class="btn btn-primary">确认下载</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <link rel="stylesheet" href="http://127.0.0.1:8069/mobile/static/css/modal.css"/>
+        <link rel="stylesheet" href="http://127.0.0.1:8069/mobile/static/css/common.css"/>
+        <link rel="stylesheet" href="http://127.0.0.1:8069/mobile/static/css/homepage.css"/>
+        <link rel="stylesheet" href="http://127.0.0.1:8069/mobile/static/css/advantage.css"/>
+        <link rel="stylesheet" href="http://127.0.0.1:8069/mobile/static/css/process.css"/>
+        <link rel="stylesheet" href="http://127.0.0.1:8069/mobile/static/css/service_context.css"/>
+        <link rel="stylesheet" href="http://127.0.0.1:8069/mobile/static/css/quotation.css"/>
+        <link rel="stylesheet" href="http://127.0.0.1:8069/mobile/static/bootstrap-4.1.3-dist/css/bootstrap.min.css"/>
+        <script type="text/javascript" src="http://127.0.0.1:8069/mobile/static/js/viewer-static.min.js"/>
+        <script type="text/javascript" src="http://127.0.0.1:8069/mobile/static/js/request.js"/>
+    </t>
+    </template>
+     <!-- 定义报告 -->
+        <report
+            id="action_mobile_view"
+            model="mobile.main"
+            string="报价单"
+            report_type="qweb-pdf"
+            name="mobile.mobile_view"
+            file="mobile_view"
+        />
+</odoo>

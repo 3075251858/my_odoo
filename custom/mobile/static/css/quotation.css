@@ -1,0 +1,72 @@
+    .quotation_context{
+        padding: 0 3vw;
+    }
+    .quotation_table table{
+        border: 1px solid black;
+        width: 100%;
+    }
+    .quotation_table tr:nth-child(n+1):nth-child(-n+10) td{
+        border: 1px solid black;
+        width: 14%;
+    }
+    .quotation_font{
+        font-size:2.5vw;
+    }
+    .quotation_font td{
+        text-align: center;
+        height: 2.5vh;
+    }
+    .total_amount{
+        font-weight: 700;
+        height: 5vh;
+    }
+    .Days{
+        text-align: center;
+        width: 17%;;
+        border-bottom: 1px solid black;
+    }
+    .quote div{
+        height: 2.8vh;
+        float: left;
+    }
+    .none_border td{
+        height: 4vh;
+        border: none;
+    }
+    .witness{
+        display: flex;
+        width: 100%;
+        height: 10.4vh;justify-content: center;
+        align-items: center;
+    }
+    .witness .red_font {
+        color: red;
+        font-size: 8vw;
+    }
+    .witness .black_font{
+        font-size: 5vw;
+    }
+    .confirm {
+        width: 100%;
+        height: 8vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .confirm button{
+        width: 40%;
+    }
+    .Contact {
+        width: 100%;
+        height: 9.5vh;
+        font-size: 2.3vw;
+        color: #ffff;
+        float: left;
+        align-items: center;
+        background-color: #0048e8;
+    }
+    .Contact div{
+        margin-top: 1.5vh;
+        display: flex;
+        align-items: center;
+    }

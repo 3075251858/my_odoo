@@ -1,0 +1,19 @@
+<odoo>
+    <data>
+        <record model="ir.ui.view" id="view_library_borrower_form">
+            <field name="name">library.borrower.form</field>
+            <field name="model">library.borrower</field>
+            <field name="arch" type="xml">
+                <form string="Library Borrower">
+                    <sheet>
+                        <group>
+                            <field name="name"/>
+                            <field name="email"/>
+                            <field name="address"/>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+    </data>
+</odoo>

@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<odoo>
+    <menuitem id="mobile_action" action="link_mobile_action"/>
+<!--    <menuitem id="test_action" action="test_action" sequence ="10"/>-->
+</odoo>

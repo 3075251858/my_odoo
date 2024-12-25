@@ -1,0 +1,118 @@
+<?xml version="1.0"?>
+<odoo>
+    <template id="mobile.test_view">
+        <t t-call="web.html_container">
+            <div class="page">
+        <div class="main homepage">
+            <div class="top_logo">
+                <img src="http://127.0.0.1:8069/mobile/static/img/logo.png"/>
+            </div>
+            <div class="cooperate">
+                <div class="cooperate_font" style="text-align: center;">慧合作方案</div>
+                <div class="cooperate_img">
+                    <img src="http://127.0.0.1:8069/mobile/static/img/Page1/quanjingtu_bg.jpg" alt="" srcset=""/>
+                </div>
+            </div>
+            <div class="title_top">
+                <div class="blue_title"></div>
+                <div>慧算账集团简介</div>
+            </div>
+
+            <div class="introduction main_padding">
+               <div class="introduction_content">
+                <div class="content_font halfway">
+                    截至2022年1月，会算账已在北京、上海、广州、深圳、重庆
+                    、天津等多地设立<span style="color: #0048e8;">55家分公司</span>，实现中国大陆区域<span style="color: #0048e8;">400多个城市</span>
+                    业务网络全面覆盖，拥有<span style="color: #0048e8;">500余家区域服务机构</span>500余家区域服务机构，为超过
+                    <span style="color: #0048e8;">120万家企业客户</span>
+                    提供财税服务。
+                </div>
+                <div class="introduction_img halfway">
+                    <div class="introduction_img_div">
+                        <img src="http://127.0.0.1:8069/mobile/static/img/Page1/hezuo.png" class="mx-auto d-block"/>
+                    </div>
+                    <span class="small_font" style="font-size: 8px;">
+                        数据来源：扶弱斯特沙利文资料<br/>
+                        易观《中国产业数字化全景图谱分析2021》
+                    </span>
+                </div>
+               </div>
+            </div>
+            <div class="data_analysis">
+                 <img src="http://127.0.0.1:8069/mobile/static/img/Page1/analysis.png" alt="" srcset=""/>
+            </div>
+            <div class="title_top">
+                <div class="blue_title"></div>
+                <div>地王慧算账</div>
+            </div>
+            <div class="diwang">
+                <div class="diwang_manager">
+                    <div class="halfway diwang_text">
+                        <div class="small_title">(会算账广西头部加盟商)</div>
+                        <div class="diwang_font">
+                            地王慧算账(云会计)是广西代理记账行业协会理事单位，
+                            拥有财政局《代理记账许可证书》。<br/>
+                            地王会算账<span style="color: #0048e8;">16+</span>年专注财税服务，立足南宁至今服务超过
+                            万家客户，<span style="color: #0048e8;">百人团队</span>提供专业的代理记账及定制化高端财税服务。
+                        </div>
+                    </div>
+                    <div class="halfway diwang_img">
+                        <img src="http://127.0.0.1:8069/mobile/static/img/Page1/hezhao.png" alt="" class="hezhao"/>
+                        <img src="http://127.0.0.1:8069/mobile/static/img/Page1/gongzuo.png" alt="" class="small_img"/>
+                        <img src="http://127.0.0.1:8069/mobile/static/img/Page1/qiantai.png" alt="" class="small_img"/>
+                    </div>
+                </div>
+            </div>
+            <div class="title_top">
+                <div class="blue_title"></div>
+                <div>荣誉与资质</div>
+            </div>
+            <div class="honor">
+                <div class="honor_img">
+                    <div>
+                        <img src="http://127.0.0.1:8069/mobile/static/img/Page1/1.png" alt=""/>
+                    </div>
+                    <div>
+                        <img src="http://127.0.0.1:8069/mobile/static/img/Page1/2.png" alt=""/>
+                    </div>
+                    <div>
+                        <img src="http://127.0.0.1:8069/mobile/static/img/Page1/3.png" alt=""/>
+                    </div>
+                    <div>
+                        <img src="http://127.0.0.1:8069/mobile/static/img/Page1/4.png" alt=""/>
+                    </div>
+                </div>
+            </div>
+            <div class="bg_text">
+                <div>我们在这</div>
+            </div>
+            <div class="contact">
+                <div>
+                    <div>
+                        400-0771-955
+                    </div>
+                    <div><img src="http://127.0.0.1:8069/mobile/static/img/Page1/dianhua.png" alt=""/></div>
+                </div>
+                <div>
+                    <div class="address">
+                        广西南宁市青秀区金湖路59<br/>
+                        号地王国际商会中心8&amp;9楼
+                    </div>
+                    <div><img src="http://127.0.0.1:8069/mobile/static/img/Page1/ditu.png" alt=""/></div>
+                </div>
+            </div>
+        </div>
+    </div>
+            <link rel="stylesheet" href="http://127.0.0.1:8069/mobile/static/css/test/test.css"/>
+        </t>
+    </template>
+     <!-- 定义报告 -->
+        <report
+            id="test_view"
+            model="mobile.main"
+            string="报价单"
+            report_type="qweb-pdf"
+            name="mobile.test_view"
+            file="test_view"
+        />
+</odoo>

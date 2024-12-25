@@ -1,0 +1,174 @@
+    .main{
+        margin-bottom: 2vh;
+        height: 100vh;
+        width: 100%;
+        box-sizing: border-box;
+        background-color: #ffff;
+    }
+    .container-fluid{
+        background-color: antiquewhite;
+    }
+    .cooperate{
+        width: 100%;
+        height: 6vh;
+    }
+    .cooperate_img {
+        width: 57.9%;
+        height: 6vh;
+    }
+    .cooperate div img{
+        width: 100%;
+        height: 6vh;
+    }
+    .cooperate div{
+        float: left;
+        font-size: 3vh;
+        color: blue;
+    }
+    .cooperate .cooperate_font{
+        justify-content: center;
+        width: 42.1%;
+    }
+    .introduction{
+        line-height:2vh;
+        width: 100%;
+        height: 24vh;
+    }
+    .introduction_content{
+        width: 100%;
+    }
+    .introduction_content{
+        display: flex;
+        float: left;
+    }
+    .halfway{
+        width: 50%;
+    }
+    .introduction .halfway img{
+        width: 100%;
+    }
+    .data_analysis{
+        width: 100%;
+        height: 15vh;
+        background-image: url('http://127.0.0.1:8069/mobile/static/img/Page 1/china.png');
+        background-size: 50vw;
+        background-repeat: no-repeat;
+    }
+    .data_analysis ul{
+        padding-left: 0;
+    }
+    .data_analysis ul li{
+        margin-top: 10%;
+        list-style-type: none;
+        width: 25%;
+        color: red;
+        float: left;
+    }
+    .data_analysis ul li div{
+        clear: both;
+        text-align: center;
+    }
+    .data_analysis img{
+        width: 3vw;
+    }
+    .analysis{
+        display: flex;
+        font-size: 7vw;
+        justify-content: center;
+        align-items: center;
+    }
+    .analysis_img{
+        width: 3vw;
+        height: 3vw;
+    }
+    .diwang{
+        width: 100%;
+        padding: 0 3vw;
+        height: 21vh;
+    }
+    .diwang .diwang_manager{
+        width: 100%;
+    }
+    .small_title{
+        color: blue;
+        font-size: 4vw;
+    }
+    .diwang .halfway{
+        float: left;
+    }
+    .diwang_img{
+        height: 13vh;
+        align-items: center;
+        justify-content: center;
+    }
+    .diwang_img img{
+        float: left;
+        margin-top: 1vh;
+    }
+    .hezhao{
+        width: 100%;
+        height: 50%;
+    }
+    .small_img{
+        width: 50%;
+        height: 50%;
+    }
+    .diwang_font{
+        line-height: 1.5vh;
+        font-size: 2.5vw;
+    }
+    .honor{
+        width: 100%;
+        height: 15vh;
+        padding: 0 3vw;
+    }
+    .honor_title{
+        width: 100%;
+    }
+    .honor_img {
+        height: 10vh;
+    }
+    .honor_img div{
+        display: flex;
+        align-items: center;
+        float: left;
+        width: 25%;
+        justify-content: space-between;
+    }
+    .honor_img img{
+        display: flex;
+        align-items: center;
+        margin-top: 2.5vh;
+        width: 80%;
+        height: 100%;
+    }
+    .home_contact{
+        margin-top: 2vh;
+        height: 5vh;
+        align-items: center;
+    }
+    .home_contact div{
+        align-items: center;
+        float: right;
+        margin-right: 3vw;
+    }
+    .home_contact img{
+        width: 5vw;
+    }
+    .address{
+        font-size: 2vw;
+    }
+    .bg_text{
+        display: flex;
+        align-items: center;
+        height: 5vh;
+        width: 100%;
+    }
+    .bg_text div{
+        margin-left: 15vw;
+    }
+    .homepage{
+        background-image: url('http://127.0.0.1:8069/mobile/static/img/Page 1/beijing.png');
+        background-size: cover; /* 确保图片覆盖整个元素 */
+        background-position: center; /* 将图片居中显示 */
+    }

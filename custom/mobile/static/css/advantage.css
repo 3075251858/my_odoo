@@ -1,0 +1,49 @@
+    .advantage_body{
+        padding: 0 3vw;
+    }
+    .tsan img{
+        position: absolute;
+        width: 20vw;
+        z-index: 1px;
+        margin-left: 50vw;
+        margin-top: -6vh;
+    }
+    .advantage_chart{
+        height: 25vh;
+        width: 100%;
+    }
+    .advantage_chart img{
+        margin-top: 2vh;
+        width: 100%;
+    }
+    .advantage_context div{
+        float: left;
+        font-size: 2vw;
+        color: blue; 
+        width: 20%;
+        justify-content: space-between;
+    }
+    .advantage_context div ul{
+        padding-left: 0;
+    }
+    .advantage_context div ul li{
+        margin-left: 1.5vw;
+        
+    }
+    .cooperative_enterprises table{
+        width: 100%;
+    }
+    .cooperative_enterprises_img td{
+       height: 15vh;
+    }
+    .cooperative_enterprises table tr td{
+        justify-content: center;
+        text-align: center;
+        font-size: 2.5vw;
+    }
+    .cooperative_enterprises table tr td img{
+        width: 20vw;
+    }
+    .cooperative_enterprises_font td{
+        height: 5vh;
+    }

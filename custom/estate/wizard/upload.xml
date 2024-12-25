@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<odoo>
+    <data>
+        <!-- Wizard定义 -->
+        <record id="action_upload" model="ir.ui.view">
+            <field name="name">estate.customer.upload</field>
+            <field name="model">upload.wizard</field>
+            <field name="arch" type="xml">
+                <form string="Create Quotation">
+                    <group>
+                        <field name="file"/>
+                    </group>
+                    <footer>
+                        <button name="excel_upload" string="上传" type="object" class="oe_highlight"/>
+                    </footer>
+                </form>
+            </field>
+        </record>
+        <!-- Wizard动作 -->
+        <record id="action_upload" model="ir.actions.act_window">
+            <field name="name">上传Excel</field>
+            <field name="res_model">upload.wizard</field>
+            <field name="view_mode">form</field>
+            <field name="view_id" ref="action_upload"/>
+            <field name="target">new</field>
+        </record>
+    </data>
+</odoo>

@@ -1,0 +1,54 @@
+.page {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.main {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+.small_font{
+    font-size: 100%;
+}
+
+.top_logo{
+    width: 100%;
+    height: 5%;
+    background-color: #0048e8;
+    align-items: center;
+}
+.top_logo img{
+    margin-left: 5%;
+    height: 70%;
+    margin-top: 1%;
+}
+.blue_title {
+    width: 1.5%;
+    height: 80%;
+    background-color: blue;
+}
+.title_top {
+    height: 5%;
+    width: 100%;
+}
+.title_top div{
+    float: left;
+    color: blue;
+    height: 50%;
+    font-size: 20px;
+    margin-top: 2.5%;
+    margin-left: 3%;
+}
+.main_padding {
+    box-sizing: border-box;
+
+}
+.content_font{
+    font-size: 250%;
+}
+.zhanwei{
+    opacity: 0;
+}

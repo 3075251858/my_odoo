@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<odoo>
+    <record id="link_mobile_action" model="ir.actions.act_window">
+        <field name="name">移动端</field>
+        <field name="res_model">mobile.main</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <record id="mobile_view_tree" model="ir.ui.view">
+        <field name="name">mobile.main.tree</field>
+        <field name="model">mobile.main</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="services"/>
+                <field name="combo"/>
+                <field name="month_of_purchase"/>
+                <field name="price"/>
+                <field name="total_price"/>
+                <field name="note"/>
+                <field name="whitespace"/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="mobile_view_form" model="ir.ui.view">
+        <field name="name">mobile.main.form</field>
+        <field name="model">mobile.main</field>
+        <field name="arch" type="xml">
+                <form>
+                <sheet>
+                    <group>
+                        <field name="services"  widget="char"/>
+                        <field name="combo"/>
+                        <field name="month_of_purchase"/>
+                        <field name="price"/>
+                        <field name="total_price"/>
+                        <field name="note"/>
+                        <field name="whitespace"/>
+                    </group>
+                </sheet>
+                </form>
+        </field>
+    </record>
+</odoo>

@@ -1,0 +1,122 @@
+<?xml version="1.0"?>
+<odoo>
+    <template id="mobile.test_service_context_view">
+        <t t-call="web.html_container">
+            <div class="page">
+                <div class="main service_context">
+                    <div class="top_logo">
+                        <img src="http://127.0.0.1:8069/mobile/static/img/logo.png" alt="" srcset=""/>
+                    </div>
+                    <div class="title_top_white">
+                        <div class="white_title"></div>
+                        <div>代理记账服务内容</div>
+                    </div>
+                    <div class="service">
+                        <div class="service_table">
+                            <table>
+                                <tr class="service_title">
+                                    <td><div class="trapezoid" style="border-bottom: 6vw solid #ef991a;">记账</div></td>
+                                    <td><div class="trapezoid" style="border-bottom: 6vw solid #4455f3;">申报纳税</div></td>
+                                    <td><div class="trapezoid" style="border-bottom: 6vw solid #f50d5b;">打印装订</div></td>
+                                </tr>
+                                <tr class="table_border">
+                                    <td class="bg_white">
+                                        <ul>
+                                            <li>建立账册</li>
+                                            <li>录入凭证</li>
+                                            <li>收取客户票据</li>
+                                            <li>核查客户票据</li>
+                                            <li>编制记账凭证</li>
+                                            <li>税款确认</li>
+                                            <li>编制财务报表</li>
+                                        </ul>
+                                        <div class="left_img">
+                                            <img src="http://127.0.0.1:8069/mobile/static/img/Page 4/accounting.png" alt=""/>
+                                        </div>
+                                    </td>
+                                    <td class="bg_white">
+                                        <ul>
+                                            <li>个税申报</li>
+                                            <li>增值税申报</li>
+                                            <li>企业所得税申报</li>
+                                            <li>城市维护建设税申报</li>
+                                            <li>教育费附加申报</li>
+                                            <li>地方教育附加申报</li>
+                                            <li>残保金、消费税</li>
+                                            <li>文化建设、印花税申报</li>
+                                        </ul>
+                                        <div class="left_img">
+                                            <img src="http://127.0.0.1:8069/mobile/static/img/Page 4/ratepaying.png" alt=""/>
+                                        </div>
+                                    </td>
+                                    <td class="bg_white">
+                                        <ul>
+                                            <li>整理、粘贴票据</li>
+                                            <li>打印装订凭证</li>
+                                            <li>打印装订纳税申报表</li>
+                                            <li>打印装订全年明细账</li>
+                                            <li>打印装订全年总帐</li>
+                                        </ul>
+                                        <div class="left_img">
+                                            <img src="http://127.0.0.1:8069/mobile/static/img/Page 4/bookbinding.png" alt=""/>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr class="service_title">
+                                    <td><div class="trapezoid" style="border-bottom: 6vw solid #ec1eca;">年报</div></td>
+                                    <td><div class="trapezoid" style="border-bottom: 6vw solid #b311f3;">财务咨询</div></td>
+                                    <td><div class="trapezoid" style="border-bottom: 6vw solid #2654eb;">其他服务</div></td>
+                                </tr>
+                                <tr class="table_border">
+                                    <td class="bg_white">
+                                        <ul>
+                                            <li>所得税汇算清缴</li>
+                                            <li>企业工商年鉴</li>
+                                        </ul>
+                                        <div class="left_img">
+                                            <img src="http://127.0.0.1:8069/mobile/static/img/Page 4/report.png" alt=""/>
+                                        </div>
+                                    </td>
+                                    <td class="bg_white">
+                                        <ul>
+                                            <li>日常财税咨询</li>
+                                            <li>财务管理咨询</li>
+                                            <li>财税风险预警</li>
+                                            <li>财税合规建议</li>
+                                            <li>合理避税建议</li>
+                                        </ul>
+                                        <div class="left_img">
+                                            <img src="http://127.0.0.1:8069/mobile/static/img/Page 4/consult.png" alt=""/>
+                                        </div>
+                                    </td>
+                                    <td class="bg_white">
+                                        <ul>
+                                            <li>与前会计公司交接资料</li>
+                                            <li>打印银行流水、回单</li>
+                                            <li>手机APP在线查询</li>
+                                            <li>财务推送报告</li>
+                                        </ul>
+                                        <div class="left_img">
+                                            <img src="http://127.0.0.1:8069/mobile/static/img/Page 4/other_service.png" alt=""/>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <link rel="stylesheet" href="http://127.0.0.1:8069/mobile/static/css/test/common.css"/>
+            <link rel="stylesheet" href="http://127.0.0.1:8069/mobile/static/css/test/service_context.css"/>
+        </t>
+    </template>
+     <!-- 定义报告 -->
+        <report
+            id="test_service_context_view"
+            model="mobile.main"
+            string="报价单"
+            report_type="qweb-pdf"
+            name="mobile.test_service_context_view"
+            file="test_service_context_view"
+        />
+</odoo>

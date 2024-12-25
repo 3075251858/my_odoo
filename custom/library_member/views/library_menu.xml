@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <act_window id="action_library_member"
+                name="Library Member"
+                res_model="library"
+                view_model="tree,from"
+    />
+
+    <menutiem id="menu_library_member"
+              name="Members"
+              action="library_member.action_library_member"
+              parent="library.library_menu"/>
+</odoo>

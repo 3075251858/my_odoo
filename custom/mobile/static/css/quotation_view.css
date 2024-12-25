@@ -1,0 +1,67 @@
+
+        .quotation_context{
+            width: 100%;
+            padding: 0 3vw;
+        }
+        .quotation_table table{
+            border-collapse: collapse;
+            border: 1px solid black;
+            width: 100%;
+
+        }
+        .quotation_table table td{
+            height: 30px;;
+        }
+        .quotation_table tr:nth-child(n+2):nth-child(-n+10) td{
+            border: 1px solid black;
+            width: 14%;
+        }
+        .quotation_font{
+            font-size:2.5vw;
+        }
+        .quotation_font td{
+            text-align: center;
+            height: 2.5vh;
+        }
+        .total_amount{
+            font-weight: 700;
+            height: 5vh;
+        }
+        .Days{
+            text-align: center;
+            width: 20vw;
+            border-bottom: 1px solid black;
+        }
+        .quote div{
+            height: 2.8vh;
+            float: left;
+        }
+        .none_border td{
+            height: 4vh;
+            border: none;
+        }
+        .witness{
+            width: 100%;
+            height: 10.4vh;
+        }
+        .witness .red_font {
+            color: red;
+            font-size: 8vw;
+        }
+        .witness .black_font{
+            font-size: 5vw;
+        }
+        .confirm {
+            width: 100%;
+            height: 8vh;
+
+        }
+        .Days{
+            text-align: center;
+            width: 20vw;
+            border-bottom: 1px solid black;
+        }
+        .quote div{
+            height: 2.8vh;
+            float: left;
+        }

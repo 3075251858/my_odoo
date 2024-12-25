@@ -1,0 +1,95 @@
+<?xml version="1.0"?>
+<odoo>
+    <record id="link_estate_property_action" model="ir.actions.act_window">
+        <field name="name">Properties</field>
+        <field name="res_model">estate.property</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <record id="estate_property_view_tree" model="ir.ui.view">
+        <field name="name">estate.property.tree</field>
+        <field name="model">estate.property</field>
+        <field name="arch" type="xml">
+            <tree string="Tests">
+                <field name="name" string="Title"/>
+                <field name="postcode" string="Postcode"/>
+                <field name="bedrooms" string="Bedrooms"/>
+                <field name="living_area" string="Living Area"/>
+                <field name="expected_price" string="Expected Price"/>
+                <field name="selling_price" string="Selling Price"/>
+                <field name="date_availability" string="Avalilable Form"/>
+                <field name="property_type_id" string="Property Type"/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="estate_property_view_form" model="ir.ui.view">
+        <field name="name">estate.property.form</field>
+        <field name="model">estate.property</field>
+        <field name="arch" type="xml">
+            <form string="estate property form">
+                <sheet>
+                    <h1>
+                        <field name="name"/>
+                    </h1>
+                    <p>
+                        <field name="tag_ids" widget="many2many_tags"/>
+                    </p>
+                    <group>
+                        <group>
+                            <field name="property_type_id" string="Property Type"/>
+                            <field name="postcode" string="Postcode"/>
+                            <field name="date_availability" string="Available From"/>
+                        </group>
+                        <group>
+                            <field name="expected_price" string="Expected Price"/>
+                            <field name="selling_price" string="Selling Price"/>
+                            <field name="selling_price" string="Selling Price"/>
+                        </group>
+                    </group>
+                    <notebook>
+                        <page string="Description">
+                            <group>
+                                <field name="description"/>
+                                <field name="bedrooms"/>
+                                <field name="living_area"/>
+                                <field name="facades"/>
+                                <field name="garage"/>
+                                <field name="garden"/>
+                                <field name="garden_area"/>
+                                <field name="garden_orientation"/>
+                                <field name="total_area" string="Total Area"/><!--本次添加的内容-->
+                            </group>
+                        </page>
+                        <page string="Offer">
+                            <field name="offer_ids" widget="my_field_one_2_many"/>
+                        </page>
+                        <page string="Other info">
+                            <group>
+                                <field name="salesman_id" string="Salesman"/>
+                                <field name="buyer_id" string="Buyer"/>
+                            </group>
+                        </page>
+                    </notebook>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="estate_property_search_view" model="ir.ui.view">
+        <field name="name">estate.property.search</field>
+        <field name="model">estate.property</field>
+        <field name="arch" type="xml">
+            <search string="Estate Property">
+                <field name="name" string="Title"/>
+                <field name="postcode" string="Postcode"/>
+                <field string="Available" name="state" domain="['|',('state', '=', 'New'),('state', '=', 'Offer Received')]"/>
+                <field name="bedrooms" domain="[('bedrooms', '>', 3)]"/>
+                <!-- 分组 -->
+                <group expand="1" string="Group By">
+                    <filter string="朝向" name="garden_orientation" context="{'group_by':'garden_orientation'}"/>
+                </group>
+            </search>
+        </field>
+    </record>
+</odoo>

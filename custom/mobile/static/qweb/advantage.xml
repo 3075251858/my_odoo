@@ -1,0 +1,131 @@
+<?xml version="1.0"?>
+<odoo>
+    <template id="mobile.test_advantage_view">
+        <t t-call="web.html_container">
+            <div class="page">
+                <div class="main advantage">
+                    <div class="top_logo">
+                        <img src="http://127.0.0.1:8069/mobile/static/img/logo.png" alt="" srcset=""/>
+                    </div>
+                    <div class="title_top">
+                        <div class="blue_title"></div>
+                        <div>五大优势</div>
+                    </div>
+                    <div class="advantage_body">
+                        <div class="tsan">
+                            <img src="http://127.0.0.1:8069/mobile/static/img/Page 2/tsan.png" alt=""/>
+                        </div>
+                        <div class="advantage_chart">
+                            <div class="advantage_chart_img">
+                                <img src="http://127.0.0.1:8069/mobile/static/img/Page 2/strengths.png" alt=""/>
+                            </div>
+                            <div class="advantage_context">
+                                <div>
+                                    <ul>
+                                        <li>全国120+万客户</li>
+                                        <li>互联网财税市场占有率NO:1</li>
+                                    </ul>
+                                </div>
+                                <div>
+                                    <ul>
+                                        <li>严选多年的专业会计</li>
+                                        <li>入职考试</li>
+                                        <li>岗位专业培训</li>
+                                        <li>职级认证考试</li>
+                                    </ul>
+                                </div>
+                                <div>
+                                    <ul>
+                                        <li>把关初始化风险</li>
+                                        <li>把关帐前数据及传递风险</li>
+                                        <li>先账后税</li>
+                                        <li>税金确认</li>
+                                        <li>增值税测算推送</li>
+                                    </ul>
+                                </div>
+                                <div>
+                                    <ul>
+                                        <li>APP实时查看财务状况</li>
+                                        <li>企业微信群随时互动</li>
+                                        <li>风险问题随时告知</li>
+                                        <li>服务过程信息推送</li>
+                                    </ul>
+                                </div>
+                                <div>
+                                    <ul>
+                                        <li>财税顾问</li>
+                                        <li>总账会计</li>
+                                        <li>会计经理</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="title_top">
+                        <div class="blue_title"></div>
+                        <div>知名合作企业</div>
+                    </div>
+                    <div class="cooperative_enterprises">
+                        <table>
+                            <tr class="cooperative_enterprises_img">
+                                <td>
+                                    <img src="http://127.0.0.1:8069/mobile/static/img/Page 2/kangquan.png" alt=""/>
+                                </td>
+                                <td>
+                                    <img src="http://127.0.0.1:8069/mobile/static/img/Page 2/quanji.png" alt=""/>
+                                </td>
+                                <td>
+                                    <img src="http://127.0.0.1:8069/mobile/static/img/Page 2/yongxing.png" alt=""/>
+                                </td>
+                            </tr>
+                            <tr class="cooperative_enterprises_font">
+                                <td>康全药业南宁公司</td>
+                                <td>全季酒店南宁公司</td>
+                                <td>南宁永兴驾校</td>
+                            </tr>
+                            <tr class="cooperative_enterprises_img">
+                                <td>
+                                    <img src="http://127.0.0.1:8069/mobile/static/img/Page 2/didi.png" alt=""/>
+                                </td>
+                                <td>
+                                    <img src="http://127.0.0.1:8069/mobile/static/img/Page 2/TOYOTA.png" alt=""/>
+                                </td>
+                                <td>
+                                    <img src="http://127.0.0.1:8069/mobile/static/img/Page 2/weiheng.png" alt=""/>
+                                </td>
+                            </tr>
+                            <tr class="cooperative_enterprises_font">
+                                <td>滴滴-玉林-梧州-贵港公司</td>
+                                <td>丰田租赁(中国)有限公司</td>
+                                <td>炜衡律师事务所南宁分所</td>
+                            </tr>
+                            <tr class="cooperative_enterprises_img">
+                                <td>
+                                    <img src="http://127.0.0.1:8069/mobile/static/img/Page 2/xiangwang.png" alt=""/>
+                                </td>
+                                <td>
+                                    <img src="http://127.0.0.1:8069/mobile/static/img/Page 2/zhongjian.png" alt=""/>
+                                </td>
+                                <td>
+                                    <img src="http://127.0.0.1:8069/mobile/static/img/Page 2/SCG.png" alt=""/>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <link rel="stylesheet" href="http://127.0.0.1:8069/mobile/static/css/test/advantage.css"/>
+            <link rel="stylesheet" href="http://127.0.0.1:8069/mobile/static/css/test/common.css"/>
+        </t>
+    </template>
+     <!-- 定义报告 -->
+        <report
+            id="test_advantage_view"
+            model="mobile.main"
+            string="报价单"
+            report_type="qweb-pdf"
+            name="mobile.test_advantage_view"
+            file="test_advantage_view"
+        />
+</odoo>

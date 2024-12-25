@@ -1,0 +1,78 @@
+    .service{
+        padding: 0 3vw;
+    }
+    .service_table table{
+        width: 100%;
+    }
+    /* 梯形设置 */
+    .trapezoid {
+        font-size: 3vw;
+        align-items: center;
+        color: #ffff;
+        width: 20vw;
+        height: 0;
+        border-left: 0 solid transparent;
+        border-right: 7vw solid transparent;
+    }
+    .service_table ul {
+        padding-left: 0;
+    }
+    .service_title td{
+        text-align: center;
+    }
+    .service_table ul li{
+        height: 2.5vh;
+        list-style-type: none;
+        font-size: 2.6vw;
+    }
+    .service_table tr td{
+        border: 1vw solid blue;
+        border-width: 0 1vw 0 1vw;
+    }
+    .service_table td{
+        width: 33%;
+    }
+    .service_context{
+        background-color: blue;
+    }
+    .table_border{
+        border: 1vh solid blue;
+        border-width: 0 0 4vw 0;
+    }
+    .white_title {
+        width: 0.5vh;
+        height: 2vh;
+        background-color: rgb(227, 227, 245);
+    }
+    .title_top_white {
+        display: flex;
+        align-items: center;
+        height: 8vh;
+    }
+    .title_top_white div{
+        display: flex;
+        float: left;
+        color: rgb(225, 225, 245);
+        font-size: 2vh;
+        height: 2vh;
+        align-items: center;
+        margin-right: 2vw;
+    }
+    .bg_white{
+        position: relative;
+        height: 25vh;
+        background-color: #ffff;
+        z-index: 2;
+    }
+    .left_img{
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        width: 10vw;
+        height: 10vw;
+        z-index: 0;
+    }
+    .left_img img{
+        width: 10vw;
+        height: 10vw;
+    }

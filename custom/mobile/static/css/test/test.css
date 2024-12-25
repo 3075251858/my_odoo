@@ -1,0 +1,188 @@
+.page {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.main{
+    margin-bottom: 2%;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+}
+.container-fluid{
+    background-color: antiquewhite;
+}
+.title_top {
+    width: 100%;
+    height: 5%;
+    font-size: 20px;
+    color: #0e0af0;
+}
+.title_top div{
+    margin-top: 2%;
+    margin-left: 2%;
+    float: left;
+}
+.top_logo {
+    width: 100%;
+    height: 7%;
+    background-color: #0e0af0;
+}
+.top_logo img{
+    margin-top: 3%;
+    margin-left: 5%;
+    height: 50%;
+}
+.blue_title {
+    width: 2%;
+    height: 60%;
+    background-color: #0048e8;
+}
+.cooperate{
+    width: 100%;
+    height: 6%;
+}
+.cooperate_img {
+    width: 57.9%;
+    height: 100%;
+}
+.cooperate div img{
+    width: 100%;
+    height: 100%;
+}
+.cooperate div{
+    float: left;
+    font-size: 25px;
+    color: blue;
+}
+.cooperate .cooperate_font{
+    justify-content: center;
+    width: 42.1%;
+
+}
+.introduction{
+    width: 100%;
+    height: 20%;
+}
+.introduction_content{
+    width: 100%;
+    height: 100%;
+}
+.introduction_content div{
+    float: left;
+}
+.halfway{
+    width: 48%;
+}
+.introduction .halfway img{
+    width: 80%;
+    height: 50%;
+}
+.introduction_img_div {
+    width: 100%;
+    height: 70%;
+}
+.content_font {
+    font-size: 12px;
+    width: 50%;
+    height: 100%;
+}
+.introduction_img {
+    width: 50%;
+    height: 100%;
+}
+.data_analysis {
+    width: 100%;
+    height: 15%;
+}
+.data_analysis img {
+    width: 100%;
+    height: 100%;
+    margin-left: -10%;
+}
+.diwang {
+    width: 100%;
+    height: 16%;
+}
+.diwang_text {
+    width: 50%;
+    height: 100%;
+}
+.diwang .diwang_manager{
+    width: 100%;
+}
+.small_title{
+    color: blue;
+    font-size: 8px;
+}
+.diwang .halfway{
+    float: left;
+}
+.diwang_img{
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.diwang_img img{
+    float: left;
+    margin-top: 1vh;
+}
+.hezhao{
+    width: 100%;
+    height: 50%;
+}
+.small_img{
+    width: 50%;
+    height: 50%;
+}
+.diwang_font{
+    font-size: 9px;
+}
+.honor{
+    width: 100%;
+    height: 10%;
+    padding: 0 2%;
+}
+.honor_img {
+    height: 100%;
+}
+.honor_img div{
+    float: left;
+    width: 25%;
+}
+.honor_img img{
+    margin-top: 20%;
+    width: 80%;
+    height: 100%;
+}
+.contact{
+    margin-top: 2%;
+    height: 3%;
+    float: right;
+    align-items: center;
+}
+.contact div{
+    align-items: center;
+    float: right;
+}
+.contact img{
+    width: 20%;
+}
+.address{
+    font-size: 8px;
+}
+.bg_text{
+    height: 4%;
+    width: 100%;
+}
+.bg_text div{
+    margin-left: 15%;
+}
+.homepage{
+    background-image: url('http://127.0.0.1:8069/mobile/static/img/Page1/beijing.png');
+    background-size: cover; /* 确保图片覆盖整个元素 */
+    background-position: center; /* 将图片居中显示 */
+
+}

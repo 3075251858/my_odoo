@@ -1,0 +1,19 @@
+<templates>
+    <t t-name="EstateCustomerListView.buttons" t-extend="ListView.buttons">
+        <t t-jquery="button.o_list_button_add" t-operation="after">
+            <button  type="button" class="my_upload_button btn btn-primary">上传</button>
+        </t>
+    </t>
+    <div t-name="my_uploadExcel">
+        <div class="my_chatter_attachment_form">
+            <t t-call="HiddenInputFile">
+                <t t-set="fileupload_id" t-value="widget.fileuploadId"/>
+                <t t-set="fileupload_action" t-translation="off">/web/binary/upload_attachment</t>
+                <t t-set="multi_upload" t-value="true"/>
+                <input type="hidden" name="model" value=""/>
+                <input type="hidden" name="id" value="0"/>
+                <span class="abcdefg">888</span>
+            </t>
+        </div>
+    </div>
+</templates>

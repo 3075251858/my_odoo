@@ -1,0 +1,70 @@
+    .advantage_body{
+        width: 100%;
+        height: 25%;
+    }
+    .tsan img{
+        position: absolute;
+        width: 20%;
+        z-index: 1px;
+        margin-left: 50%;
+        margin-top: -10%;
+    }
+    .advantage_chart{
+        height: 100%;
+        width: 100%;
+    }
+    .advantage_chart_img{
+        width: 100%;
+        height: 60%;
+    }
+    .advantage_chart img{
+        margin-top: 2%;
+        width: 100%;
+        height: 100%;
+    }
+    .advantage_context {
+        height: 40%;
+        width: 100%;
+    }
+    .advantage_context div{
+        float: left;
+        font-size: 7px;
+        color: blue;
+        width: 20%;
+        justify-content: space-between;
+    }
+    .advantage_context div ul{
+        width: 100%;
+        padding-left: 0;
+    }
+    .advantage_context div ul li{
+        width: 100%;
+        margin-left: 10%;
+
+    }
+    .cooperative_enterprises {
+        width: 100%;
+        height: 59%;
+    }
+    .cooperative_enterprises table{
+        height: 100%;
+        width: 100%;
+    }
+    .cooperative_enterprises_img {
+        width: 100%;
+        height: 30%;
+    }
+    .cooperative_enterprises_img td{
+        width: 33%;
+    }
+    .cooperative_enterprises table tr td{
+        justify-content: center;
+        text-align: center;
+        font-size: 8px;
+    }
+    .cooperative_enterprises table tr td img{
+        width: 60%;
+    }
+    .cooperative_enterprises_font td{
+        height: 5%;
+    }

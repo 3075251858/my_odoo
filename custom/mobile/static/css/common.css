@@ -1,0 +1,49 @@
+
+.small_font{
+    font-size: 2.2vw;
+}
+
+.top_logo{
+    display: flex;
+    width: 100%;
+    background-color: blue;
+    height: 5vh;
+    align-items: center;
+}
+.top_logo img{
+    margin-left: 5vw;
+    height: 3vh;
+}
+.blue_title {
+    width: 0.5vh;
+    height: 2.5vh;
+    background-color: blue;
+}
+.title_top {
+    display: flex;
+    align-items: center;
+    height: 5vh;
+    width: 100%;
+}
+.title_top div{
+    display: flex;
+    float: left;
+    color: blue;
+    font-size: 2vh;
+    height: 2vh;
+    align-items: center;
+    margin-right: 2vw;
+}
+.main_padding {
+    box-sizing: border-box;
+    padding: 0 3vw;
+}
+.content_font{
+    font-size: 3vw;
+}
+.zhanwei{
+    opacity: 0;
+}
+
+
+

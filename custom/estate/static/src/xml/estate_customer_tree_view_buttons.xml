@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<templates>
+    <t t-name="estate.CustomerHiddenUploadForm">
+        <div class="o_estate_customer_upload">
+            <t t-call="HiddenInputFile">
+                <t t-set="multi_upload" t-value="true"/>
+                <t t-set="fileupload_id" t-value="widget.fileUploadID"/>
+                <t t-set="fileupload_action" t-translation="off">/web/binary/upload_attachment</t>
+                <input type="hidden" name="model" value=""/>
+                <input type="hidden" name="id" value="0"/>
+            </t>
+        </div>
+    </t>
+
+    <t t-name="EstateCustomerListView.buttons" t-extend="ListView.buttons">
+        <t t-jquery="button.o_list_button_add" t-operation="after">
+            <!--btn表示按钮类
+              按钮颜色：btn-primary-主要按钮，btn-secondary次要按钮
+              按钮大小：btn-sm小按钮，btn-lg大按钮
+              默认按钮：btn-default-->
+            <button type="button" class="o_button_upload_estate_customer btn btn-primary">Upload</button>
+        </t>
+    </t>
+</templates>
